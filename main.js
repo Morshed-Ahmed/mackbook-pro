@@ -25,6 +25,8 @@ function updateTotal() {
     const grandTotal = memoryInput + storageInput + deliveryInput;
     const total = grandTotal + bestPriceInput;
     totalPrice.innerText = total;
+
+
     finalPrice.innerText = total;
 }
 
